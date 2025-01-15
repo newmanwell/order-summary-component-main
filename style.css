@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  width: 25%;
+  background-color: hsl(225, 100%, 98%);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.header-img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.card-container h1 {
+  text-align: center;
+}
+
+.main-para {
+  display: block;
+  text-align: center;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 94%);
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.card-container h2 {
+  font-size: 1rem;
+}
+
+.change {
+  vertical-align: middle;
+  line-height: 85px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border-radius: 5px;
+}
+
+.cancel {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+  margin-top: 15px;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
